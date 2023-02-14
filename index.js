@@ -11,7 +11,7 @@ const quizData = [
     question:
       "¿Qué tipo de Selector selecciona a todos los elementos del HTML?",
     a: "Selector Universal",
-    b: "Selector de elemetos",
+    b: "Selector de elementos",
     c: "Selector de clase",
     d: "Agrupación de selectores",
     correct: "a",
@@ -147,7 +147,7 @@ submitBtn.addEventListener("click", () => {
     if (currentQuiz < quizData.length) {
       loadQuiz();
     } else {
-      quiz.innerHTML = `<h2>You answered correctly at ${score}/${quizData.length} questions.</h2>`;
+      quiz.innerHTML = `<h2>¡Contestaste correctamente ${score} de ${quizData.length} preguntas!</h2>`;
     }
   }
 });
