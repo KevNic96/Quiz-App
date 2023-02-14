@@ -54,7 +54,7 @@ const quizData = [
     a: "console.log('Hola Mundo');",
     b: "console.log(Hola Mundo);",
     c: "consolelog(`Hola Mundo`);",
-    d: "console.log{'Hola Mundo');",
+    d: "console.log{'Hola Mundo);",
     correct: "a",
   },
   {
